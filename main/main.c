@@ -9,6 +9,7 @@ int main() {
     Pokedex *dex = NULL;
     Mochila mochila;
     Colecao colecao;
+    Pokemon dados[721];
 
     int quantidadePokemon = 0;
     recebeArquivoPokedex(&dex, &quantidadePokemon);
